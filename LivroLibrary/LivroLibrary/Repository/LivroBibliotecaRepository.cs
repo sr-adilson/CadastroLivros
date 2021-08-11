@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LivroLibrary.Repository
 {
-    public class LivroBibliotecaRepository : LivroBaseRepository<Biblioteca>
+    public class LivroBibliotecaRepository
     {
+
+    
     }
 }

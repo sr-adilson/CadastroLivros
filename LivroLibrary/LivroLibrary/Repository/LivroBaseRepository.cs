@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LivroLibrary.Repository
 {
-    class LivroBaseRepository<T> where T : LivroBaseModel
+    public class LivroBaseRepository<T> where T : LivroBaseModel
     {
 
         public void Create(T model)
@@ -54,7 +54,7 @@ namespace LivroLibrary.Repository
 
         public void Delete(int id)
         {
-            using(var context = new BaseContext())
+            using (var context = new BaseContext())
             {
                 context.Entry<T>(this.Read(id)).State = System.Data.Entity.EntityState.Deleted;
                 context.SaveChanges();

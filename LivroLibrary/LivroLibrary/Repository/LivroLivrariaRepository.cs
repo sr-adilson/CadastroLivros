@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LivroLibrary.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LivroLibrary.Repository
 {
-    public class LivroLivrariaRepository : LivroBaseRepository<Livraria>
+    public class LivroLivrariaRepository : LivroBaseRepository<LivroLivrariaModel>
     {
     }
 }
