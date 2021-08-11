@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivroLibrary", "LivroLibrar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppLivro", "WebAppLivro\WebAppLivro.csproj", "{68F1F856-C1A0-40F6-A191-8EF174B14911}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeLivros", "GerenciadorDeLivros\GerenciadorDeLivros.csproj", "{C739073A-3F58-43F0-AE4B-945AAA277333}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
