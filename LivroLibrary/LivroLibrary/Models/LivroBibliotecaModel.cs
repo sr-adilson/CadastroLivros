@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LivroLibrary.Models
 {
-    class LivroBibliotecaModel: LivroBaseModel
+    public class LivroBibliotecaModel: LivroBaseModel
     {
         public string Localizacao { get; set; }
 
